@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="BasicHttpAuthExample">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,7 +21,8 @@
 
 </head>
 <body class="hold-transition login-page">
-<div class="login-box">
+
+    <div class="login-box">
   <div class="login-logo">
     <a href="#"><b>Inovação</b> App Suite</a>
   </div>
@@ -75,6 +76,14 @@
 <script src="../../bootstrap/js/bootstrap.js"></script>
 <!-- iCheck -->
 <script src="../../plugins/iCheck/icheck.min.js"></script>
+<script src="//code.jquery.com/jquery-2.0.3.min.js"></script>
+    <script src="//code.angularjs.org/1.2.20/angular.js"></script>
+    <script src="//code.angularjs.org/1.2.20/angular-route.js"></script>
+    <script src="//code.angularjs.org/1.2.13/angular-cookies.js"></script>
+    <script src="scripts/app.js"></script>
+    <script src="modules/authentication/services.js"></script>
+    <script src="modules/authentication/controllers.js"></script>
+    <script src="modules/home/controllers.js"></script>
 <script>
   $(function () {
     $('input').iCheck({

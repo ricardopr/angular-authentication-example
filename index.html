@@ -1,9 +1,22 @@
 <!DOCTYPE html>
 <html ng-app="BasicHttpAuthExample">
 <head>
-    <meta charset="utf-8" />
-    <title>AngularJS Basic HTTP Authentication Example</title>
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" />
+    <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Inovação AppSuite| Log in</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <!-- Bootstrap 3.3.6 -->
+  <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="../../dist/css/AdminLTE.css">
+
+  <!-- iCheck -->
+  <link rel="stylesheet" href="../../plugins/iCheck/square/blue.css">
 </head>
 <body>
 
@@ -22,7 +35,17 @@
             <a href="http://jasonwatmore.com">JasonWatmore.com</a>
         </p>
     </div>
-    <script src="//code.jquery.com/jquery-2.0.3.min.js"></script>
+   <script type="text/javascript" src="../../plugins/angular/angular.min.js"></script>
+
+<script type="text/javascript" src="../../build/angular/app.js"></script>
+
+<!-- jQuery 2.2.3 -->
+<script src="../../plugins/jQuery/jquery-2.2.3.min.js"></script>
+<!-- Bootstrap 3.3.6 -->
+<script src="../../bootstrap/js/bootstrap.js"></script>
+<!-- iCheck -->
+<script src="../../plugins/iCheck/icheck.min.js"></script>
+<script src="//code.jquery.com/jquery-2.0.3.min.js"></script>
     <script src="//code.angularjs.org/1.2.20/angular.js"></script>
     <script src="//code.angularjs.org/1.2.20/angular-route.js"></script>
     <script src="//code.angularjs.org/1.2.13/angular-cookies.js"></script>
@@ -30,5 +53,14 @@
     <script src="modules/authentication/services.js"></script>
     <script src="modules/authentication/controllers.js"></script>
     <script src="modules/home/controllers.js"></script>
+<script>
+  $(function () {
+    $('input').iCheck({
+      checkboxClass: 'icheckbox_square-blue',
+      radioClass: 'iradio_square-blue',
+      increaseArea: '40%' // optional
+    });
+  });
+</script>
 </body>
 </html>
