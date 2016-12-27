@@ -12,7 +12,7 @@
 
     <form action="form" ng-bubmit="login()" role="form">
       <div class="form-group has-feedback">
-        <input type="email" class="form-control" placeholder="Login" ng-model="username" required>
+        <input type="text" class="form-control" placeholder="Login" ng-model="username" required>
         <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
           <span ng-show="form.username.$dirty && form.username.$error.required" class="help-block">Username is required</span>
       </div>
